@@ -1,6 +1,19 @@
 /* eslint-disable max-params */
 export class King {
-  constructor(name, family, age, status, regnalyears) {
+  name: string;
+  family: string;
+  age: number;
+  status: string;
+  regnalyears: number;
+  speech: string;
+
+  constructor(
+    name: string,
+    family: string,
+    age: number,
+    status: string,
+    regnalyears: number
+  ) {
     this.name = name;
     this.family = family;
     this.age = age;

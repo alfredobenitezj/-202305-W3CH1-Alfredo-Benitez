@@ -1,5 +1,11 @@
 export class Fighter {
-  constructor(name, family, age, status) {
+  name: string;
+  family: string;
+  age: number;
+  status: string;
+  weapon: boolean;
+  speech: string;
+  constructor(name: string, family: string, age: number, status: string) {
     this.name = name;
     this.family = family;
     this.age = age;
