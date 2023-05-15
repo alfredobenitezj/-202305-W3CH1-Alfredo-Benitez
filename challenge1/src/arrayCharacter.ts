@@ -13,7 +13,7 @@ export const arrayCharacters = () => {
 
     new Counselor("Tyrion", "Lannister", 35, "Daenerys"),
 
-    new Squire("Bronn", "Lannister", 40, "Jamie", 10),
+    new Squire("Bronn", "Lannister", 40, "Jamie",10,"imaluser"),
   ];
 
   return charactersContainer;

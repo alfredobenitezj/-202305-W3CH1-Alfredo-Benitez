@@ -2,6 +2,7 @@ import { Character } from "./character";
 
 export class Counselor extends Character {
   characterAdvised;
+  communicate: string;
 
   constructor(
     name: string,
